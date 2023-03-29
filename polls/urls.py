@@ -2,6 +2,9 @@ from django.urls import path
 
 from . import views
 
+#namespace so django knows which app view to create a url for 
+app_name = "polls"
+
 #mapping views to URs
 urlpatterns = [
     # /polls/
